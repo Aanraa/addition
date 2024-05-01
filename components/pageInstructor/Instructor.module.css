@@ -1,0 +1,43 @@
+.toc {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
+  font-weight: 400;
+}
+
+
+.toc ul ul{
+  padding-left: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.toc ul > ul:hover{
+  color: rgb(61, 134, 216);
+}
+
+
+.toc li {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+
+.toc-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.toc ul > li {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
+.toc-link:hover,
+.toc-link:focus {
+  color: #0070f3;
+}
+
+.toc-link-active{
+  color:#0070f3
+}
